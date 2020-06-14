@@ -1,0 +1,132 @@
+*{
+  margin:0;
+  padding:0;
+  color:#333;
+  font-size:13px;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  display: block;
+  text-decoration: none;
+}
+
+h1{
+  text-align: center;
+}
+body{
+  font-family: 'netmarble','나눔스퀘어 Light' ;
+}
+
+nav{
+  padding:0px 20%;
+  background:#333333;
+}
+
+#menu ul{
+  display: flex;
+  justify-content:space-around;
+  text-align:center;
+  width:100%;
+  margin:0px;
+  padding:5px;
+
+}
+#menu li{
+  width:100%;
+  background: #333333;
+  padding: 10px;
+  display: inline;
+  float: left;
+}
+#menu a{
+  color:#d6d6d6;
+  font-size: 11px;
+  icon;
+}
+#menu a:hover{
+  color:#ffffff;
+  overflow:hidden;
+  /*position:absolute;
+  clip:rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path:inset(0px 0px 99.9% 99.9%);
+  clip-path:inset(0px 0px 99.9% 99.9%);
+  height:1px;
+  width:1px;
+  padding:0;
+  border:0;
+  top:50%*/
+}
+
+.sub_title{
+  color:#000000;
+  font-family:'나눔스퀘어 extrabold','netmarble';
+  font-size:11px;
+  text-align:center;
+
+}
+.sub_text{
+  color:#000000;
+  font-family:'나눔스퀘어 bold','netmarble';
+  text-align:center;
+    font-size:11px;
+}
+.sub_text_a1{
+  color:#112fff;
+  font-family:'나눔스퀘어 bold','netmarble';
+  text-align:center;
+  font-size:10px;
+}
+.sec_title_1{
+  color:#ffffff;
+  font-family:'나눔스퀘어 extrabold','netmarble';
+  text-align:center;
+  font-size:50px;
+  margin:20px 0px 10px 0px;
+}
+.sec_title_2{
+  color:#ffffff;
+  font-family:'나눔스퀘어 extrabold','netmarble';
+  text-align:center;
+  font-size:24px;
+
+}
+.sec_title_3{
+  color:#ffffff;
+  font-family:'나눔스퀘어 extrabold','netmarble';
+  text-align:center;
+  font-size:24px;
+  margin:0px 0px 10px 0px;
+}
+.sec_title_4{
+  color:#7f848b;
+  font-family:'나눔스퀘어 extrabold','netmarble';
+  text-align:center;
+  font-size:14px;
+  margin:0px 0px 20px 0px;
+}
+.sec_title_5{
+  color:#2397ff;
+  font-family:'나눔스퀘어 extrabold','netmarble';
+  text-align:center;
+  font-size:17px;
+  margin:0px 20px;
+}
+
+section{
+  padding: 20px;
+}
+
+.sec_main{
+  background:#131313;
+  padding: 15px;
+  font-size:2px;
+}
+
+figure{
+  padding:150px 0px;
+  text-align: center;
+}
